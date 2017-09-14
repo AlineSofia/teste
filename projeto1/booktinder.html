@@ -1,0 +1,54 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="css/bootstrap.css">   
+            <link rel="stylesheet" href="css/style.css">
+    </head>
+        <body>
+            <select id="selection">
+                <option value="Pesquisar">Pesquisar</option>
+                <option value="Titulo">Titulo</option>
+                <option value="Autor">Autor</option>
+                <option value="Categoria">Categoria</option>
+            </select>
+            <input id="InputSearch" type="text"></input>
+            <button id="Pesquisar">Pesquisar</button>
+            <div class="container-fluid">
+                <div id="biblioteca" class="row h-100 justify-content-center align-items-center text-center">       
+                    <div id="livro" class="col-md-4">
+                            <img class="img-fluid img-circle mx-auto">
+                            <h1 class="titulo"></h1>
+                            <p></p>
+                                        <button id="classeGosto" class="btn btn-primary" data-Opinion="Gostei">Gosto</button>
+                                        <button id="classeNgosto" class="btn btn-primary" data-Opinion="Não Gostei">Não gosto</button> <br>
+
+                            <a id="wook" href=""> Saber mais</a> <br>
+                    </div>
+                </div> 
+            </div>  
+
+                <div id="final" class= "container h-100 d-flex justify-content-center">
+                    <div class="jumpbotron my-auto">
+                    <table id="Resultados"> 
+                        <h1 class="display-3">Resultados </h1>
+                        <thead>
+                            <tr>
+                                <th>
+                                    Livro
+                                </th>
+                                <th>
+                                    Opinião
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                    </div>   
+            </div>  
+
+
+        <script src="JS/jquery.js"></script>
+        <script src="JS/java.js"></script>
+
+        </body>
+</html>
